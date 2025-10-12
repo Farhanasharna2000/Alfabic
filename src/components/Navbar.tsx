@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
 
             {/* Join Button */}
             <button className="bg-[#5E2F7D] text-white md:px-[42px] px-2 py-2 md:py-3 rounded-[40px] text-sm md:text-[18px] md:font-semibold transition">
-              এখনই যোগ দিন
+              ফ্রী-তে যোগ দিন
             </button>
 
             {/* Mobile Menu Button */}
