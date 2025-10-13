@@ -3,63 +3,15 @@
 import React from "react";
 import Image from "next/image";
 import { User } from "lucide-react";
+import { livecourses } from "@/constants/livecourse";
 
-interface Course {
-  id: number;
-  title: string;
-  image: string;
-  mentor: string;
-  experience: string;
-  live?: boolean;
-  timeLeft?: string;
-  buttonText: string;
-}
-
-const courses: Course[] = [
-  {
-    id: 1,
-    title: "Abacus Mastering Mental Math for Kids",
-    image: "/course1.png",
-    mentor: "Rahim Karim",
-    experience: "3+ years Experienced",
-    live: true,
-    buttonText: "Join Now",
-  },
-  {
-    id: 2,
-    title: "Presentation & Public Speaking for Juniors",
-    image: "/course2.png",
-    mentor: "Abir Hasan",
-    experience: "4+ years Experienced",
-    timeLeft: "03:40:20",
-    buttonText: "Starts in",
-  },
-  {
-    id: 3,
-    title: "Abacus Mastering Mental Math for Junior",
-    image: "/course3.png",
-    mentor: "Karim Hasan",
-    experience: "4+ years Experienced",
-    timeLeft: "02:20:40",
-    buttonText: "Starts in",
-  },
-  {
-    id: 4,
-    title: "Spoken English for Kids (Advance)",
-    image: "/course1.png",
-    mentor: "Abir Hasan",
-    experience: "4+ years Experienced",
-    timeLeft: "01:30:20",
-    buttonText: "Starts in",
-  },
-];
 
 const Live: React.FC = () => {
   return (
     <section className="relative overflow-hidden px-4 md:px-[96px] mb-[50px]">
         <div className="bg-[#eaf8f2] rounded-[50px] pt-[154px] pb-[41px] px-4 md:px-[46px]">
       <div className="flex gap-6 relative">
-        {courses.map((course) => (
+        {livecourses.map((course) => (
           <div
             key={course.id}
             className=" bg-[#29B57E] rounded-[20px] "
