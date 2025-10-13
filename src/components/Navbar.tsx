@@ -16,13 +16,13 @@ const Navbar: React.FC = () => {
       {/* Top Bar */}
       <div className="bg-[#292929] text-white text-sm py-4">
         <div className="md:pl-[96px] md:pr-[182px] px-4 flex flex-wrap justify-between items-center">
-          <p className="flex items-center gap-1 md:gap-[6px] font-medium text-xs md:text-base">
+          <p className="flex items-center gap-1 md:gap-[6px] font-medium text-xs md:text-base ">
             <Image src="/Hot.svg" alt="" width={28} height={28} />
             প্রতি কোর্সে ২৫% ছাড়!
             <span className="underline cursor-pointer"> এখনই এনরোল করুন।</span>
           </p>
 
-          <div className="hidden sm:flex items-center gap-2 md:gap-[18px]">
+          <div className="hidden sm:flex items-center gap-2 md:gap-[18px] font-inter">
             <div className="flex items-center gap-1 text-[13px] md:text-[14px] font-medium">
               <Image src="/phone.svg" alt="" width={18} height={18} />
               <span>+123 4556 789</span>
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
             </button>
 
             {/* Join Button */}
-            <button className="bg-[#5E2F7D] text-white md:px-[42px] px-2 py-2 md:py-3 rounded-[40px] text-sm md:text-[18px] md:font-semibold transition">
+            <button className="bg-[#5E2F7D] text-white md:px-[42px] px-2 py-2 md:py-3 rounded-[40px] text-sm md:text-[18px] md:font-semibold">
               ফ্রী-তে যোগ দিন
             </button>
 

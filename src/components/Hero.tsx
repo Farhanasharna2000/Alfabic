@@ -5,7 +5,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full md:pt-[95px] pt-10 flex items-center justify-between md:h-[730px]">
+    <section className="relative w-full md:pt-[95px] pt-10 flex items-center justify-between md:h-[730px] ">
       <div className="w-full  h-full  pl-6 md:pl-[105px]  z-10 relative">
         <div className="absolute md:-top-5 -top-7">
           <Image src="/h.svg" alt="flag" width={40.48} height={31} />

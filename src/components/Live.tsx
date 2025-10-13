@@ -82,7 +82,7 @@ const Live: React.FC = () => {
 
            <div className="py-[22px] px-6">
              {/* Mentor info */}
-            <div className="mt-4 text-white">
+            <div className="mt-4 text-white font-inter">
               <div className="flex items-center gap-2 text-sm md:text-base font-semibold">
                 <User className="w-4 h-4 " />
                 <span>{course.mentor}</span>
@@ -91,17 +91,17 @@ const Live: React.FC = () => {
             </div>
 
             {/* Title */}
-            <h3 className="text-white font-semibold text-base md:text-lg mt-2 mb-3">
+            <h3 className="text-white font-semibold text-base md:text-lg mt-2 mb-3 font-poppins">
               {course.title}
             </h3>
 
             {/* Button / Timer Section */}
             {course.live ? (
-              <button className="cursor-pointer text-white text-sm md:text-base py-2 w-full rounded-[30px] font-semibold transition">
+              <button className="cursor-pointer font-poppins text-white text-sm md:text-base py-2 w-full rounded-[30px] font-semibold transition">
                 {course.buttonText}
               </button>
             ) : (
-              <div className="bg-[#00958A] text-white rounded-[14px] py-2 px-3 text-center absolute -bottom-10">
+              <div className="bg-[#00958A] text-white rounded-[14px] py-2 px-3 text-center absolute -bottom-10 font-inter">
                 <p className="text-xs font-semibold">{course.buttonText}</p>
                 <div className="flex justify-center items-center gap-3 text-[11px] md:text-xs mt-1">
                   {course.timeLeft?.split(":").map((t, i) => (

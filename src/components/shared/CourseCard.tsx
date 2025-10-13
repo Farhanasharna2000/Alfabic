@@ -33,7 +33,7 @@ const CourseCard: React.FC<{ course: course }> = ({ course }) => {
         </div>
       </div>
 
-      <h3 className="text-[#292929] font-semibold text-md md:text-[22px] py-3 md:py-[18px]">
+      <h3 className="text-[#292929] font-semibold text-md md:text-[22px] py-3 md:py-[18px] font-poppins">
         {course.title}
       </h3>
 
