@@ -11,7 +11,7 @@ const CourseCard: React.FC<{ course: course }> = ({ course }) => {
           alt={course.title}
           width={362}
           height={194}
-          className="object-cover w-full md:w-[362px] md:h-[194px] h-auto rounded-[8px]"
+          className="object-cover w-full h-[194px] rounded-[8px]"
         />
       </div>
 

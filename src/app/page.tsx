@@ -1,7 +1,8 @@
 import Activity from "@/components/Activity";
-import Courses from "@/components/Courses/Courses";
+import Courses from "@/components/Courses";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import OngoingBatches from "@/components/OngoingBatches";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       <Activity/>
       <Courses/>
+      <OngoingBatches/>
     </div>
   );
 }
