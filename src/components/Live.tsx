@@ -16,6 +16,7 @@ const Live: React.FC = () => {
             key={course.id}
             className=" bg-[#29B57E] rounded-[20px] "
           >
+            
             {/* Top Image */}
             <div className="relative">
               <Image
